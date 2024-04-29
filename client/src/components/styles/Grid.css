@@ -1,0 +1,20 @@
+.grid-container {
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-right: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust minmax values as needed */
+    gap: 5px; /* Adjust gap between grid items */
+  }
+  
+  .grid-item {
+    overflow: hidden;
+  }
+  
+  .grid-item img {
+    width: 100%; /* Ensure images fill their respective grid items */
+    height: 100%;
+    object-fit: cover; /* Ensure images maintain aspect ratio and cover the entire grid item */
+    border-radius: 25px;
+  }
+  
