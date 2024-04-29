@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+.EndOfPage {
+  display: flex;
+  justify-content: center;
+  padding: 22px;
+  margin: 20px;
+  font-size: 31px;
+  color: #000000a3;
+}
